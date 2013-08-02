@@ -1,0 +1,8 @@
+# fails with return code 127 -- not using rvm
+# rails:
+#  gem.installed:
+#    - runas: redmine
+#    - version: 3.2.13
+#    - ruby: 2.0.0@redmine_rails3.2.13
+
+#"/home/redmine/.rvm/bin/rvm 2.0.0@redmine_rails3.2.13 do gem install rails --version 3.2.13"
