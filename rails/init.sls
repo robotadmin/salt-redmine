@@ -7,7 +7,6 @@ redmine:
     - groups:
       - redmine
       - rvm
-      - sudo
     - require:
       - group: redmine
       - group: rvm
