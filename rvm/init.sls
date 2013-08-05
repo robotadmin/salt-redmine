@@ -1,3 +1,6 @@
+include:
+  - core
+
 rvm:
   group:
     - present
@@ -6,6 +9,7 @@ rvm:
     - home: /home/rvm
     - require:
       - group: rvm
+      - sls: core
     
 rvm-deps:
   pkg.installed:
